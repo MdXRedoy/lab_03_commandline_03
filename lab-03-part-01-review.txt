@@ -14,7 +14,7 @@ This lab will review downloading and uncompressing files, and it will get us set
 1. Go to your home directory.
 
 Write the command that you used to do this below:
-----------
+~
 
 
 
@@ -22,7 +22,7 @@ Write the command that you used to do this below:
 2. Prove that you're in your home directory.
 
 Write the command that you used to do this - as well as its output - below :
-----------
+pwd
 
 
 
@@ -30,7 +30,7 @@ Write the command that you used to do this - as well as its output - below :
 3. Are there any directories or files in your directory that have the word mtec1002 in it?
 
 Write the command(s) that you used to determine this - as well as its output - below:
-----------
+No
 
 
 
@@ -64,7 +64,10 @@ Download this file to your home directory into a file called mtec1002-lab-03.tar
 This command should have a *flag* to specify the output file.  MAKE SURE TO NAME YOUR OUTPUT FILE: mtec1002-lab-03.tar.gz
 
 Write the command(s) that you used to download this file - as well as its output - below:
-----------
+ent-v314-014:~ student$ curl -o mtec1002-lab-03.tar.gz http://foureyes.github.io/mtec1002-spring2014/labs/03/mtec1002-lab-03.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   178  100   178    0     0   4238      0 --:--:-- --:--:-- --:--:--  4341
 
 
 
@@ -72,7 +75,9 @@ Write the command(s) that you used to download this file - as well as its output
 7.  Uncompress the file that you just downloaded.
 
 Write the command(s) that you used to do this - as well as its output - below:
-----------
+ent-v314-014:~ student$ tar -xvf mtec1002-lab-03.tar.gz
+tar: Unrecognized archive format
+tar: Error exit delayed from previous errors
 
 
 
@@ -87,7 +92,18 @@ b. go back to step 6
 Otherwise...
 
 Write the command(s) that you used to do this - as well as its output - below:
-----------
+ent-v314-014:~ student$ ls
+AMALogger20190109.log	Movies			dog.jpg
+AMALogger20190130.log	Music			hjk.txt
+Adlm			New Unity Project	ipe.properties
+Adobe			Pictures		isus
+Applications		Public			mtec1002-lab-03
+Desktop			QLData			mtec1002-lab-03.tar.gz
+Documents		Riba-MTEC1003		myprojects
+Downloads		Things			pymel.log
+Library			bigtext.txt		xgen
+MPLABXProjects		dog
+
 
 
 
@@ -95,7 +111,7 @@ Write the command(s) that you used to do this - as well as its output - below:
 9.  What directories are in the mtec1002-lab-03 folder?
 
 Write the command(s) that you used to determine this - as well as its output - below:
-----------
+/Users/student
 
 
 
@@ -103,7 +119,7 @@ Write the command(s) that you used to determine this - as well as its output - b
 10.  Now... go back home.  Then change to the science-fiction directory using a relative path.  The directory is located in books... which is located in the mtec1002-lab-03 directory.  Verify you're in the right directory using pwd.
 
 Write the command(s) (including going home) that you used to do this below:
-----------
+
 
 
 
@@ -111,7 +127,6 @@ Write the command(s) (including going home) that you used to do this below:
 11.  Write the files that are in the science fiction directory below.
 
 Write the command(s) that you used to do this - as well as its output - below:
-----------
 
 
 
