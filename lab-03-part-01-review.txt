@@ -115,11 +115,14 @@ Write the command(s) that you used to determine this - as well as its output - b
 
 
 
-==========
+========== 
 10.  Now... go back home.  Then change to the science-fiction directory using a relative path.  The directory is located in books... which is located in the mtec1002-lab-03 directory.  Verify you're in the right directory using pwd.
 
 Write the command(s) (including going home) that you used to do this below:
 
+ent-v314-008: student$ cd ~/mtec1002-lab-03/book/science
+ent-v314-008: student$ pwd
+/Users/student/mtec1002-lab-03/book/science
 
 
 
